@@ -1,0 +1,98 @@
+/*Спецификация*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+	font-size: 15px;
+	font-weight: 800;
+	overflow-y: scroll; 
+	overflow-x: auto;
+	height: 100%;
+}
+
+body {
+	font-family: 'Roboto', serif;
+	color: black;
+	overflow-x: hidden;
+	display: flex;
+  	flex-direction: column;
+ 	height: 100%;
+}
+
+li {
+	list-style: none;
+}
+
+a {
+	color: #3e3c3c;
+}
+
+header {
+	background-color: grey;
+	padding: 1% 0;
+}
+
+header img {
+	width: 80%;
+}
+
+.header__nav {
+	color: #585656;
+}
+
+.fa-caret-square-left {
+	margin-right: 50px;
+}
+
+section {
+  flex: 1 0 auto;
+}
+
+.table,
+.links {
+	border: 2px solid black;
+	padding: 1%;
+}
+
+.table td {
+	padding: 0.1rem;
+	width: 150px;
+	vertical-align: middle;
+}
+
+input {
+	width: 100px;
+}
+
+table {
+	margin-bottom: 1%;
+}
+
+tr:nth-child(2n) {
+    background: #f0f0f0; /* Цвет фона */
+} 
+
+button {
+	margin-right: 1%;
+}
+
+footer {
+  flex: 0 0 auto;
+  background-color: grey;
+  padding: 2%;
+}
+
+footer p {
+	margin: 0;
+}
+
+footer li {
+    float: left;
+    text-align: right;
+    padding-left: 50px;
+}
+
+
